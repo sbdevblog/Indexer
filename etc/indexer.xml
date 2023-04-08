@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Indexer/etc/indexer.xsd">
+    <indexer id="sbdevblog_indexer" view_id="sbdevblog_indexer_view"
+             class="SbDevBlog\Indexer\Model\Indexer\SbDevBlogIndexer">
+        <title translate="true">The Demo Indexer</title>
+        <description translate="true">Demo Indexer For Blog</description>
+    </indexer>
+</config>
